@@ -1,4 +1,5 @@
 import { Text } from "../Text";
+import qrcode from "../../../public/images/image-qr-code.png"
 
 export const Card = () => {
   return (
@@ -7,8 +8,8 @@ export const Card = () => {
         <div className="rounded-2xl pb-4">
           <img
             className="rounded-2xl"
-            src="../public/images/image-qr-code.png"
-            alt=""
+            src={qrcode}
+            alt="Blue QR code"
           />
         </div>
         <div className="pb-3 flex flex-col text-center">
